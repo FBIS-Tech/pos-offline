@@ -18,9 +18,7 @@ export default class App extends React.Component {
 
     if (granted) {
       console.log('CAN Make Calls');
-      Ussd.dial('*878#');
-
-      console.log(this.state.userBalance);
+      Ussd.dial('*556#');
     } else {
       console.log('CALL MAKING Permission Denied');
     }
@@ -28,13 +26,13 @@ export default class App extends React.Component {
   componentDidMount() {
     this.eventListener = ussdEventEmitter.addListener('ussdEvent', (event) => {
       console.log(event.ussdReply);
-      let balance = event.ussdReply;
-      let date = event.ussdReply.split('until')[1].split('.')[0];
-      this.setState({
-        userBalance: balance,
-        expiryDate: date,
-      });
-      console.log(balance);
+      // let balance = event.ussdReply;
+      // let date = event.ussdReply.split('until')[1].split('.')[0];
+      // this.setState({
+      //   userBalance: balance,
+      //   // expiryDate: date,
+      // });
+      // console.log(balance);
     });
   }
   componentWillUnmount() {
