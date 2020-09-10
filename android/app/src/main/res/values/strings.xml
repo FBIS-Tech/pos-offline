@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">offlinePos</string>
+  <string name="app_name">offlinePos</string>
+  <string name="accessibility_service_description">Accessibility Service Description</string>
 </resources>
