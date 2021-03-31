@@ -1,11 +1,11 @@
-# RetailCode Website
+# Offline-POS App
 
     
 This project was bootstrapped with [React Native](https://reactnative.dev/).
 
 ## Setup
 
-you can set up your environment following the guidelines on [React Native Setup] (https://reactnative.dev/docs/environment-setup)
+you can set up your environment following the guidelines on [React Native Setup](https://reactnative.dev/docs/environment-setup)
 
 ## Install
 
