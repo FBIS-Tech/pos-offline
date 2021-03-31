@@ -18,13 +18,13 @@ you can set up your environment following the guidelines on [React Native Setup]
 
    ### To start Metro, run
    
-   $ npx react-native start, inside your React Native project folder
+      $ npx react-native start, inside your React Native project folder
    
    ### Start your application
    
    Let Metro Bundler run in its own terminal. Open a new terminal inside your React Native project folder. Run the following:
    
-   $ npx react-native run-android
+      $ npx react-native run-android
    
 
 
